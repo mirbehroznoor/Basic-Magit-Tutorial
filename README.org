@@ -1,3 +1,4 @@
+
 * Basic-Magit-Tutorial
 M is the Alt/Meta key
 C is the Control key
@@ -15,5 +16,11 @@ C is the Control key
 5. If there are untracked or unstaged changes, press s
 6. Once the status changed to staged, if you want to add commit (comments), press c (x2)
    - press 'C-c C-c' to save and finish, or press 'C-c C-k' to cancel
-7. After committing, the status will show details in the section 'Recent Commits'
-8. Press m to merge changes
+7. After committing, the status will show the commits in the section 'Recent Commits'
+8. Press m (x2) to merge changes
+   - Select the Branch name
+9. Message in the minibuffer
+   "Git finished"
+
+
+ _Happy ENDING :)_
