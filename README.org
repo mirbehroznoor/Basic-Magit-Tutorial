@@ -17,13 +17,16 @@
 7. Once the status changed to staged, if you want, you can add commit (comments), ~press c~ (x2)
    * In Commit Section: press ~C-c C-c~ to save and finish, or press ~C-c C-k~ to cancel
 
-8. After committing, the ~M-x magit-status~ will show the commits in the section ~Recent Commits~ or ~Unmerged into x/y~
+8. After committing, the ~M-x magit-status~ will show the commits in the ~Unmerged into x/y~
 
 9. ~Press P~ to push changes then `Press u` to push main to upstream to the Github Repository.
 
 10. Depending on option, it can either ask for the SSH passphrase or Github username and password.
 
 10. Message in the minibuffer =Git finished=
+
+11. The ~magit-status~ shows section ~Recent Commits~ at the top the last commit made to the repository in Github.
+    ~Press Tab~ to unfold the list of all recent commits
 
 #+begin_quote
 "There is no end, my friend"
