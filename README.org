@@ -1,7 +1,7 @@
 #+TITLE:       Basic Magit Tutorial for Github
 #+AUTHOR:      Mir Behroz Noor
 
-- _Some Knowledge of Emacs_
+- *Some Knowledge of Emacs*
 - *Non-Expert Guidelines: Only for Personal Github*
 
 1. Create/Select a repository on Github
@@ -29,6 +29,8 @@
 
 11. The ~magit-status~ shows section ~Recent Commits~ at the top the last commit made to the repository in Github.
     ~Press Tab~ to unfold the list of all recent commits
+
+*Learning Emacs*
 
 #+begin_quote
 "There is no end, my friend"
