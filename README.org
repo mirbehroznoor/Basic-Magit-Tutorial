@@ -10,19 +10,20 @@
 
 4. In the Repo, press ~C-x g~ or in minibuffer ~M-x magit-status~
 
-5. Check If there are untracked or unstaged files/changes, ~press s~ to select a particular file for staging
+5. Check If there are untracked or unstaged changes from files, ~press s~ to select a particular file for staging.
 
-6. Once the status changed to staged, if you want, you can add commit (comments), ~press c~ (x2)
+6. Better to split window before committing. It will automatically bring up the staged changes buffer and the committing buffer, easier to add comments.
+
+7. Once the status changed to staged, if you want, you can add commit (comments), ~press c~ (x2)
    * In Commit Section: press ~C-c C-c~ to save and finish, or press ~C-c C-k~ to cancel
 
-7. After committing, the ~M-x magit-status~ will show the commits in the section ~Recent Commits~ or ~Unmerged into x/y~
+8. After committing, the ~M-x magit-status~ will show the commits in the section ~Recent Commits~ or ~Unmerged into x/y~
 
-8. ~Press P~ to push changes then `Press u` to push main to upstream to the Github Repository.
+9. ~Press P~ to push changes then `Press u` to push main to upstream to the Github Repository.
 
-9. Depending on option, it can either ask for the SSH passphrase or Github username and password.
+10. Depending on option, it can either ask for the SSH passphrase or Github username and password.
 
-10. Message in the minibuffer
-    *Git finished*
+10. Message in the minibuffer =Git finished=
 
 #+begin_quote
 "There is no end, my friend"
