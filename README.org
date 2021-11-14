@@ -12,7 +12,7 @@
 
 4. In the Repo, press ~C-x g~ or in minibuffer ~M-x magit-status~
 
-5. Check If there are untracked or unstaged changes from files, ~press s~ to select a particular file for staging.
+5. Check If there are untracked or unstaged changes from files, ~press s~ to stage desired or all files.
 
 6. Better to split window before committing. It will automatically bring up the staged changes buffer and the committing buffer, easier to add comments.
 
