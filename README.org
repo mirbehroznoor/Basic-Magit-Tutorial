@@ -1,6 +1,10 @@
+#+TITLE:       Basic Magit Tutorial for Github
+#+AUTHOR:      Mir Behroz Noor
+
 * Basic Magit Tutorial for Github
 
-*Non-Expert Guidelines: Only for Personal Github*
+- *Some Knowledge of Emacs*
+- *Non-Expert Guidelines: Only for Personal Github*
 
 1. Create/Select a repository on Github
 
@@ -14,7 +18,7 @@
 
 6. Better to split window before committing. It will automatically bring up the staged changes buffer and the committing buffer, easier to add comments.
 
-7. Once the status changed to staged, if you want, you can add commit (comments), ~press c~ (x2)
+7. Once the status changed to staged, add commit (comments), ~press c~ (x2)
    * In Commit Section: press ~C-c C-c~ to save and finish, or press ~C-c C-k~ to cancel
 
 8. After committing, the ~M-x magit-status~ will show the commits in the ~Unmerged into x/y~
