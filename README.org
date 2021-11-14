@@ -1,10 +1,8 @@
 #+TITLE:       Basic Magit Tutorial for Github
 #+AUTHOR:      Mir Behroz Noor
 
-* Basic Magit Tutorial for Github
-
-- *Some Knowledge of Emacs*
-- *Non-Expert Guidelines: Only for Personal Github*
+*Some Knowledge of Emacs*
+*Non-Expert Guidelines: Only for Personal Github*
 
 1. Create/Select a repository on Github
 
@@ -23,7 +21,7 @@
 
 8. After committing, the ~M-x magit-status~ will show the commits in the ~Unmerged into x/y~
 
-9. ~Press P~ to push changes then `Press u` to push main to upstream to the Github Repository.
+9. ~Press P~ to push changes then ~Press u~ to push main to upstream to the Github Repository.
 
 10. Depending on option, it can either ask for the SSH passphrase or Github username and password.
 
