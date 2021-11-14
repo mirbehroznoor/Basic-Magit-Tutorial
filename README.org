@@ -1,41 +1,31 @@
 * Basic Magit Tutorial for Github
 
-** Create/Select a repository on Github
-** Clone the Repo to your Local Computer
+*Non-Expert Guidelines: Only for Personal Github*
+
+1. Create/Select a repository on Github
+
+2. Clone the Repo to your Local Computer
 ~M-x magit-clone~
-**  Make your Changes or Add new files in Repo folder
-**  In the Repo, press ~C-x g~ or in minibuffer
+
+3. Make your Changes or Add new files in Repo folder
+
+4. In the Repo, press ~C-x g~ or in minibuffer
 ~M-x magit-status~
-** Check If there are untracked or unstaged files/changes, ~press s~ to select a particular file for staging
-**  Once the status changed to staged, if you want, you can add commit (comments), ~press c~ (x2)
-***  In Commit Section:
-   - press ~C-c C-c~ to save and finish, or press ~C-c C-k~ to cancel
-**  After committing, the ~M-x magit-status~ will show the commits in the section ~Recent Commits~ or ~Unmerged into x/y~
-** ~Press P~ to push changes then `Press u` to push main to upstream to the Github Repository.
-**  Depending on option, it can either ask for the SSH passphrase or Github username and password.
-** Message in the minibuffer
+
+5. Check If there are untracked or unstaged files/changes, ~press s~ to select a particular file for staging
+
+6. Once the status changed to staged, if you want, you can add commit (comments), ~press c~ (x2)
+   + In Commit Section:
+     press ~C-c C-c~ to save and finish, or press ~C-c C-k~ to cancel
+
+7. After committing, the ~M-x magit-status~ will show the commits in the section ~Recent Commits~ or ~Unmerged into x/y~
+
+8. ~Press P~ to push changes then `Press u` to push main to upstream to the Github Repository.
+
+9. Depending on option, it can either ask for the SSH passphrase or Github username and password.
+
+10. Message in the minibuffer
     *Git finished*
 
-<<<<<<< HEAD
-=======
-1. Create a repository on Github
-2. Clone the Repo to your Local Computer
-   #+begin_src
-     M-x magit-clone
-   #+end_src
-3. Make your Changes or Add new files in Repo folder
-4. In the Repo, press _C-x g_ or in minibuffer
-   #+begin_src
-    M-x magit-status
-   #+end_src
-5. If there are untracked or unstaged changes, press s
-6. Once the status changed to staged, if you want to add commit (comments), press c (x2)
-   - press 'C-c C-c' to save and finish, or press 'C-c C-k' to cancel
-7. After committing, the status will show the commits in the section 'Recent Commits'
-8. Press m (x2) to merge changes
-   - Select the Branch name
-9. Message in the minibuffer
-   "Git finished"
->>>>>>> 933f8c44daf831948d589b2802a426ebd6798180
 
 _Happy ENDING :)_
