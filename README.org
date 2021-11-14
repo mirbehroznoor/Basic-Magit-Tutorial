@@ -1,8 +1,8 @@
 #+TITLE:       Basic Magit Tutorial for Github
 #+AUTHOR:      Mir Behroz Noor
 
-*Some Knowledge of Emacs*
-*Non-Expert Guidelines: Only for Personal Github*
+- _Some Knowledge of Emacs_
+- *Non-Expert Guidelines: Only for Personal Github*
 
 1. Create/Select a repository on Github
 
