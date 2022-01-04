@@ -4,6 +4,8 @@
 - *Some Knowledge of Emacs*
 - *Non-Expert Guidelines: Only for Personal Github*
 
+*** Magit Push
+
 1. Create/Select a repository on Github
 
 2. Clone the Repo to your Local Computer ~M-x magit-clone~
@@ -29,6 +31,15 @@
 
 11. The ~magit-status~ shows section ~Recent Commits~ at the top the last commit made to the repository in Github.
     ~Press Tab~ to unfold the list of all recent commits
+
+*** Magit Pull [Trial and Error]
+
+1. In the Repo, press ~C-x g~ or in minibuffer ~M-x magit-status~
+
+2. If there are unstaged or uncommitted changes, ~M-x magit-reset-hard~
+
+3. Once all cleared, go to the ~M-x magit-status~ buffer, press ~F~ either ~p~ or ~u~ to *pull into* main or master from *origin/master* or *origin/main*
+
 
 *Learning Emacs*
 
