@@ -25,6 +25,7 @@
 
 9. ~Press P~ to push changes then ~Press u~ to push main to upstream to the Github Repository.
    - In case of failure, try ~-F~ *--force* option with *push main to*
+     + *It can happen, if you are working on two repositories simultaneously which ever uses --force option will be worked on*
 
 10. Depending on option, it can either ask for the SSH passphrase or Github username and password.
 
