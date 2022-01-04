@@ -24,6 +24,7 @@
 8. After committing, the ~M-x magit-status~ will show the commits in the ~Unmerged into x/y~
 
 9. ~Press P~ to push changes then ~Press u~ to push main to upstream to the Github Repository.
+   - In case of failure, try ~-F~ *--force* option with *push main to*
 
 10. Depending on option, it can either ask for the SSH passphrase or Github username and password.
 
