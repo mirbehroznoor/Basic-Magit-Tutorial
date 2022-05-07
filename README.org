@@ -26,7 +26,7 @@ David Goggins
 
 6. Better to split window before committing. It will automatically bring up the staged changes buffer and the committing buffer, easier to add comments.
 
-7. Once the status changed to staged, add commit (comments), ~press c~ (2x)
+7. Once the status changed to staged, add commit (comments), ~press c (2x)~
    * In Commit Section: press ~C-c C-c~ to save and finish, or press ~C-c C-k~ to cancel
 
 8. After committing, the ~M-x magit-status~ will show the commits in the ~Unmerged into x/y~ or ~Unpushed to x/y~
@@ -60,14 +60,14 @@ Press =n= to create a new Branch
 
 [[https://stackoverflow.com/questions/4746672/put-current-changes-in-a-new-git-branch][Stackoverflow: Put Current Changes in a New Git Branch]]
 
-Press =b= (2x) to switch to New Git Branch
+Press =b (2x)= to switch to New Git Branch
 
 Now, follow the normal process of pull or push to New Branch
 
 
 *** Delete the New Branch
 
-press =C=x G= ~magit status~
+press =C-x G= ~magit status~
 
 press =b= for branch options
 
