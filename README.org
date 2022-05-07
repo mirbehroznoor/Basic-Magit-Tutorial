@@ -3,6 +3,7 @@
 
 - *Some Knowledge of Emacs*
 - *Non-Expert Guidelines: Only for Personal Github*
+- *Always Beware of Changes: if there are changes in the remote main branch, fetch the changes before changing the local main or better, create a local branch of main and later, merge the changes.*
 
 *** Magit Push
 
@@ -18,12 +19,12 @@
 
 6. Better to split window before committing. It will automatically bring up the staged changes buffer and the committing buffer, easier to add comments.
 
-7. Once the status changed to staged, add commit (comments), ~press c~ (x2)
+7. Once the status changed to staged, add commit (comments), ~press c~ (2x)
    * In Commit Section: press ~C-c C-c~ to save and finish, or press ~C-c C-k~ to cancel
 
-8. After committing, the ~M-x magit-status~ will show the commits in the ~Unmerged into x/y~
+8. After committing, the ~M-x magit-status~ will show the commits in the ~Unmerged into x/y~ or ~Unpushed to x/y~
 
-9. ~Press P~ to push changes then ~Press u~ to push main to upstream to the Github Repository.
+9. ~Press P~ to push changes then ~Press p~ to push main to upstream to the Github Repository.
    - In case of failure, try ~-F~ *--force* option with *push main to*
      + *It can happen, if you are working on two repositories simultaneously which ever uses --force option will be worked on*
 
@@ -49,3 +50,31 @@
 "There is no end, my friend"
 David Goggins
 #+end_quote
+
+
+*** Create a New Branch
+
+Go to =C-x g=, ~Magit Status~
+
+Press =b= for =Git Branch= options
+
+Press =n= to create a new Branch
+
+[[https://stackoverflow.com/questions/4746672/put-current-changes-in-a-new-git-branch][Stackoverflow: Put Current Changes in a New Git Branch]]
+
+Press =b= (2x) to switch to New Git Branch
+
+Now, follow the normal process of pull or push to New Branch
+
+
+*** Delete the New Branch
+
+press =C=x G= ~magit status~
+
+press =b= for branch options
+
+press =k= to delete the Branch
+
+=Yes= Delete it Remotely + Locally
+
+=No= Delete it Locally
