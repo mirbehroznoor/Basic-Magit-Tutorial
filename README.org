@@ -1,6 +1,13 @@
 #+TITLE:       Basic Magit Tutorial for Github
 #+AUTHOR:      Mir Behroz Noor
 
+*Learning Emacs*
+#+begin_quote
+"There is no end, my friend"
+David Goggins
+#+end_quote
+
+
 - *Some Knowledge of Emacs*
 - *Non-Expert Guidelines: Only for Personal Github*
 - *Always Beware of Changes: if there are changes in the remote main branch, fetch the changes before changing the local main or better, create a local branch of main and later, merge the changes.*
@@ -42,15 +49,6 @@
 2. If there are unstaged or uncommitted changes, ~M-x magit-reset-hard~
 
 3. Once all cleared, go to the ~M-x magit-status~ buffer, press ~F~ either ~p~ or ~u~ to *pull into* main or master from *origin/master* or *origin/main*
-
-
-*Learning Emacs*
-
-#+begin_quote
-"There is no end, my friend"
-David Goggins
-#+end_quote
-
 
 *** Create a New Branch
 
